@@ -9,6 +9,14 @@ var path = require('path');
 var mime = require('mime');
 var bodyParser = require('body-parser');
 var socketio = require('socket.io');
+// const {pg} = require('pg');
+// const newClient = new pg()
+
+// newClient.connect();
+
+// const res = newClient.query('SELECT $1::text as message', ['Hello world!'])
+// console.log(res.rows[0].message) // Hello world!
+// newClient.end()
 
 // templating boilerplate setup
 app.engine('html', nunjucks.render); // how to render html templates
